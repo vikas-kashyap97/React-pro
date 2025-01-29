@@ -1,12 +1,13 @@
-<<<<<<< HEAD
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Import and Export- 
 
-Currently, two official plugins are available:
+1. Default import and export manner - AliceSeries.jsx ( export default Serise), App.jsx (import Serise from './components/AliceSeries.jsx', (<Serise />)), main.jsx (import App from './App.jsx', (<App/>))
+2.Named Import Export - AliceSeries.jsx (export const Serise = () => {}), App.jsx (import { Serise } from './components/AliceSeries.jsx'), main.jsx (import App from './App.jsx', (<App/>))
+3.Combined Import Export - AliceSeries.jsx (export const Movie = () => {}), App.jsx (import { Serise, Movie } from './components/AliceSeries.jsx';), main.jsx (import App from './App.jsx', (<App/>))
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# React-pro
->>>>>>> 1967f287f574ba3c0fec241e1eff9afb526cb7a4
+
+#Looping in .jsx - 
+
+1. We don't have for loops in jsx, so we have to use .map() method of arrays.
+2. we use .map() method for loops.
